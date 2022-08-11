@@ -1,0 +1,36 @@
+7 aulas
+
+Aula 1: Um projeto completo usando HTML e CSS
+
+
+===========
+
+Aula 2: Download e organização dos arquivos
+
+===========
+
+Aula 3: Ajustes no HTML do projeto
+
+
+===========
+
+Aula 4: Ajustes no CSS do projeto
+
+
+===========
+
+Aula 5: Colocando as fontes ao projeto 
+
+
+===========
+
+Aula 6: Imagens com efeito Parallax simples
+
+
+===========
+
+Aula 7: Hospedando o Projeto Cordel gratuitamente
+
+
+===========
+

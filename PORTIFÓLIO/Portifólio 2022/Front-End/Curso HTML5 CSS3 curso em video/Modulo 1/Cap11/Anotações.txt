@@ -1,0 +1,86 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 11
+8 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1:
+Adaptação: todo conteudo deve se adaptar a todos os publicos.
+
+Isso é verificado nas multiplas imagens de tamanhos diferentes para diferentes tamanhos de tela
+
+é utilizado o gimp para manipular o tamanho das imagens mudar o tamanho da escala e resolução x y
+
+
+=======================================================================
+
+Aula 2:
+Se o usuario não gosta do site e vai embora em pouco tempo apos acessar o site, o seu site fica com taxa de rejeição alta, "Bounce rate" então o google para de indicar o seu site
+
+Dica: inserir as imagens com tamanho diferente e não deixar aparecer a barra de rolagem lateral X
+
+Sempre adaptar o tamanho da imagem para o tamanho das telas do usuário, idependente se isso irá gerar muitos arquivos de imagem, faz total diferença na navegação do usuario que irá ficar mais tempo no site
+
+A base é a imagem padrão e acima são as imagens de tamanho maior para a menor
+
+ou seja
+
+picture
+ IMAGEM PEQUENA
+ IMAGEM MÉDIA
+ IMAGEM ORIGINAL
+/picutre
+
+=======================================================================
+
+Aula 3: Colocando áudio no seu site
+
+Cuidado com direitos autorais
+Colocar as extenções de acordo com a funcionabilidade de cada navegador.
+Cuidado com arquivos muito grande e formas de funcioanmento do audio no site, por exemplo configurar para carregar o site somente quando o audio inteiro for carregado nao é recomendado.
+
+
+=======================================================================
+
+Aula 4: Formatos de vídeo para seu site 
+MP4 M4V WEBM
+HandBrake: Ferramenta de conversão de vídeos
+
+converter para melhorar o tamanho do video é uma boa prática pensando em sites que armazenaram seus videos para poupar e não deixar o site pesado
+
+=======================================================================
+
+
+Aula 5: Vídeos em hospedagem própria
+
+Para colocar um video:
+
+<video controls> 
+	<source video1 com menor tamanho ext=xx>
+	<source video1 com medio tamanho ext=yy>
+</video>
+
+Videos hospedados no proprio servidor pode consumir muita internet e pode ser cobrado por isso, custo elevado, avisa o cliente.
+
+=======================================================================
+
+Aula 6: Incorporação de vídeos externos
+
+Consegue colocar video do youtube basta incorporar o codico iframe do video
+
+Quando vê videos de outros servidores externos os dados de trafego saem do servidor externo e não do seu site e isso pode gerar acessos em outros sites proprios por exemplo youtube
+
+
+
+=======================================================================
+
+Aula 7: Desafio: um site com vídeos
+
+
+=======================================================================
+
+
+
+
+

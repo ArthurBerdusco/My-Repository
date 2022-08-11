@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+header{
+    height: 100px;
+    background-color: brown;
+}
+
+nav{
+    height: 30px;
+    background-color: cyan;
+}
+
+article{
+    height: 400px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+aside{
+    height: 400px;
+    width: 40%;
+    background-color:pink;
+    color: white;
+    float: right;
+}
+
+footer{
+    height: 100px;
+    background-color: red;
+    color: white;
+    clear: both;
+}
+

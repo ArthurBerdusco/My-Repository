@@ -1,0 +1,153 @@
+14 aulas
+
+Aula 1: Ainda podemos usar tabelas em HTML?
+
+Não é interessante utilizar tabela para a estrutura do site. A tabela é utilizada para conteudos especificos de dados e nao para estruturação do site
+
+
+============
+
+Aula 2: Sua primeira tabela em HTML
+
+Organização de dados em linhas
+
+todas as tabelas tem a seguinte hierarquia:
+
+table <table>= table
+  table row <tr>= linha da tabela
+    table header <th> = cabeçalho de tabela
+    table data <td>= dado de tabela
+
+para inserir o estilo na tabela basta alterar o css da td
+
+{Para criar a primeira tabela basta criar a table inserir as linhas e os dados. Na formatação do CSS basta adicionar borda aos td "dados" e colapsar o elemento border-colapse na table}.
+
+OBS: W3C na versão5 opcional o fechamento das tags de td
+
+a hierarquia da tabela é importante pois se for feita com erros os dados ficaram errados na tabela
+
+============
+
+Aula 3: Alinhando o conteúdo em tabelas
+
+text-align: center; ou right ou left
+vertical-align: text-top; ou text-bottom
+
+criar classes com alinhamento especifico exemplo numeros em excel por padrão sao alinhados a esquerda
+
+============
+
+Aula 4: Aprendendo a trabalhar com tabelas grandes 
+
+ANATOMIA DE TABELAS GRANDES
+
+	TABLE
+	  CAPATION - LEGENDA
+	  THEAD
+	    TR, TD, TH
+          TBODY
+	    TR, TD, TH
+	  TFOOT
+	    TR, TD, TH
+
+tabelas grandes tem esta formatação
+
+geralmente no thead temos o cabeçalho principal da tabela geralmente todos os itens da tr sao th
+
+
+============
+
+Aula 5:Caption e Escopo de títulos em tabelas
+
+Caption é a legenda da tabela, geralmente aquele titulo principal que mescla as colunas
+
+
+TH - Titulo da coluna geralmente atribuimos tambem o scope="col" ou "row" nos th
+TD - Dado 
+
+============
+
+Aula 6: Efeito Zebrado na tabela com HTML e CSS
+
+
+tbody > tr:nth-child(2n){    (/*2n ou even*/)(começa pelo numero par)
+   background-color: grey;
+}
+
+ou
+
+tbody > tr:nth-child(odd){    (/*2n-1*/)(começa pelo numero impar)
+   background-color: grey;
+}
+
+
+============
+
+Aula 7: Cabeçalho fixo em tabelas grandes
+
+recurso google chrome 
+
+primeiro colocar em table 
+position: relative;
+
+depois em th do thead colocar
+
+            position: sticky; ira colar
+            top: -1px; ira colar sem deixar espaço em branco em cima
+            background-color: grey; cola tambem a cor de fundo
+
+============
+
+Aula 8: Mesclagem de células
+
+utiliza-se:
+
+colspan: x; para mesclar colunas x é o numero de colunas
+rowspan: x; para mesclar linhas x é o numero de colunas
+
+esta sintaxe é utilizada de forma inline na tag td ou th
+
+============
+
+Aula 9: Desafios (parte 1)
+
+desafio 13 realizar a formatação de tabelas com os comandos colspan e rowspan
+
+============
+
+Aula 10: Exemplo de tabela completa
+
+tabela completa utilizando colspan rowspan e td e th e scope "col", "colgroup" ou "row", "rowgroup"
+
+============
+
+Aula 11: Escopos de grupo
+
+quando se usa mesclagens de colunas com informações referentes a esta mesclagem utiliza-se a tag scope: colgroup ou rowgroup.
+ 
+
+
+============
+
+Aula 12: Desafios (parte 2)
+
+fazendo tabelas utilizando todos os comandos aprendidos, tabela004
+
+============
+
+Aula 13: Agrupando Colunas com colgroup
+
+para colocar efeitos em colunas utiliza-se o colgroup dentro de table
+
+<colgroup>
+   <col class="cNome">
+   <col class="cIdade" span="3">
+</colgroup>
+
+============
+
+Aula 14: Tabelas responsivas
+
+se a tabela for grande e estiver com barra de rolagem quando o site estiver em telas pequenas, basta colocar a tabela toda em uma div container, e colocar o elemento overflow-x: auto; que ira criar uma barra de rolagem dentro da tabela se a tela for pequena e nao na pagina.
+
+============

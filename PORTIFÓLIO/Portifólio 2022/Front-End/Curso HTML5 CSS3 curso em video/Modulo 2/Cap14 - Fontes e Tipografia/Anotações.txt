@@ -1,0 +1,136 @@
+Módulo 2
+Capitulo 14 - 10 Aulas
+
+Anotações PDF:
+
+14 - Serifa: também chamada de apoio ou patilha. Pequenas retas que
+ornamentam as hastes de alguns tipos. 
+
+Atualmente, não usamos fontes serifadas para apresentar textos longos na Web pois
+as tendências atuais nos levam a usar fontes um pouco mais leves visualmente.
+Porém, as fontes serifadas são bastante usadas em títulos, pois acabam chamando
+mais atenção por conta das características que citei.
+
+cm (centímetros)
+in (polegadas)
+pt (pontos) 
+pc (paicas) 
+px (pixels)
+em (Tam. orig. fonte)
+
+Para tamanhos de fonte a
+serem exibidos na tela, o W3C recomenda o uso do px ou do em.
+
+https://www.w3.org/Style/Examples/007/units.pt_BR.html
+
+A ordem dos atributos de uma shorthand em CSS é importante. No caso da
+propriedade font, devemos informar, na ordem:
+• font-style
+• font-variant
+• font-weight
+• font-size/line-height
+• font-family
+________________________________________________________________
+
+Aula 1: Primeiros passos em Tipografia
+Tipografia: século xv / livros eram feitos copiando a mão, 1450 Johannes Guttenberg - Criou a prensa mecânica com tinta e papel - então foram criados letras que eram mais faceis de serem prensadas
+tipo - typos - impressao
+grafia - graphia - escrita
+
+Design - boas imagens / boas cores / boas letras
+
+Cada fonte é escolhida de acordo com o significado do 
+
+================================================================
+Aula 2: Anatomia do tipo
+A anatomia estuda a estrutura de cada letra ou familia de fonte, espaçamento tamanho, caracteristicas.
+
+Tudo isso é importante para saber se a fonte se aplica em cada local do site.
+
+Serifa serve para guiar a leitura do usuario
+Fontes sem serifa ajudam na leitura
+
+Fonte serifada
+Sem serifa
+Monoespaçada - Tem o mesmo espaçamento horizontal as letras
+Handwriting - Fonte escrita a mão
+Display - fontes comemorativas
+
+
+================================================================
+Aula 3: Famílias de fonte com CSS
+Fontes safe - Web Safe Fonts
+
+Ver ex17 aula 3
+
+================================================================
+Aula 4: Tamanho de fonte e suas medidas
+
+Existem varios tipos de tamanho de fonte o w3 recomenda sempre manipular por "em" ou "px"
+1em = 16px
+
+
+================================================================
+Aula 5: Peso, estilo e shorthand font
+
+Peso da fonte - font-weigth bolder lighter ou por peso de 300 a 900
+
+font-style fonte italic, normal, 
+
+text-decoration: underline;
+
+shorthand - font = ordem (font-style --> font-weight --> font-size --> font-family) 
+
+
+
+================================================================
+Aula 6: Usando Google Fonts
+
+Site do google que tem diversas fontes aonde é possivel copiar o código da mesma em css e iserila no código utilizando o comando @import
+
+Nesse sentido se for utilizar a fonte importada do google só irá funciona se o site ou servidor tiver acesso a internet
+
+3 ou 4 fontes diferentes no site no maximo
+
+1 pro titulo subtitulo e textos
+
+================================================================
+Aula 7: Usando fontes externas baixadas
+
+        @font-face {
+            font-family: 'hallowen';
+            src: url('CFHalloween-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+Formatos de fontes baixadas:
+	- opentype(otf)
+	- truetype(ttf)
+	- embedded-opentype
+	- truetype-aat (Apple Advanced Typography)
+	- svg
+
+================================================================
+Aula 8: Capturando as fontes usadas em um site
+
+Usar o software  FontsNinja que ira verificar qual é a fonte de um texto, então basta ver e baixar a fonte em um site confiavel
+
+
+
+================================================================
+Aula 9: Detectando fontes dentro de imagens
+
+whatfontis.com - melhor das opções basta formatar certinho dentro do site para ele capturar os melhores traços da fonte na imagem
+fontsquirrel.com
+myfonts.com
+
+
+================================================================
+Aula 10: Alinhamento de textos com CSS
+
+text-align
+center / right / left / justify 
+text-indent: 30px
+
+
+

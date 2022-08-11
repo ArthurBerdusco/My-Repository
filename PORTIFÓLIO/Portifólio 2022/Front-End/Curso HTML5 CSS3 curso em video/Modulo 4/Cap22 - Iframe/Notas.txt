@@ -1,0 +1,110 @@
+8 Aulas
+
+Aula 1: O iframe ainda pode ser usado?
+
+Iframe = Frame inline = Quadro em linha
+
+Basicamente ele exibe um quadrado "frame" com uma pagina de terceiro. Essa pagina é referenciada no link do iframe.
+
+alguns links ou sites tem restrições para acessibilidade de iframe
+
+
+============
+
+Aula 2: Configurando iframes
+
+Para resolver incompatibilidades de visualização de iframe, no meio da tag colocar um link "<a>" com o destino, assim a visualização não fica comprometida
+
+Tamanho padrão 300x150
+
+para alterar o tamanho basta declarar height ou widht inline dentro da tag iframe
+
+Em iframe, as CSS são soberanas se for alterado os estilos
+
+Parametro scrolling= "auto" se o conteudo exceder ele cria a barra
+"yes" mesmo que o conteudo caiba inteiro ele aparece a barra
+
+"no" mesmo que o conteudo seja maior ele nao deixa rolar "essa função nao funciona em alguns navegadores tem que testar"
+
+frameborder = "0" ou "1", 0 sem borda, 1 com borda
+
+
+
+============
+
+Aula 3: Conteúdo local no iframe
+
+
+É possivel inserir nas paginas html o conteudo local html de outras paginas, utilizando o iframe e linkando com o nome do arquivo html desejado para ser exibido
+
+============
+
+Aula 4: Navegação no iframe
+
+A navegação dentro do iframe é tem a seguinte configuração:
+
+Primeiro criace uma lista de links na pagina principal cada link deve ter o link para a respequitiva  navegação ou site desejado e target="NOMEDACONFIGIFRAME"
+
+Depois cria-se o iframe com uma unica configuração dentro da tag: (name="NOMEDACONFIGIFRAME")
+
+Ou seja quando a pessoa clicar no link principal a pagina de conteudo local será exibida dentro do iframe
+============
+
+Aula 5: Conteúdo no iframe por código
+
+Para criar uma telinha simples dentro do iframe para que quando a pagina for carregada a 1º vez apareça este conteudo, basta adicionar a instrução srcdoc="(CONTEUDO HTML)" dentro da tag iframe.
+
+Na configuração do srcdoc cuidado com as aspas dupla pois a aspa dupla já é para abrir o codigo do src, utilizar sempre aspas simples
+
+Obs esta pagina se sair não da para voltar a nao ser que a pagina principal seja atualizada,
+
+============
+
+Aula 6: Inconvenientes do iframe
+
+tecnicamente utilizar muitos conteudos em iframe o google pode nao conseguir captar a indexação, podendo prejudicar na escalabilidade do site
+
+Na acessibilidade os softwares leitores de telas tem dificuldade de interpretar iframes
+
+Problemas de usabilidade, alguns usuarios ou o computador pode se confundir, por exemplo quando voce está navegando dentro do iframe e quer voltar uma página, voce volta a pagina principal ou o iframe? 
+
+Alguns sites apresentam problemas de responsividade
+
+Questões de segurança, os iframes abrem portas dentro do seu site.
+
+============
+
+Aula 7: Tornando iframes mais seguros
+
+Como proteger o seu site que tenha iframes
+
+sandbox="sandbox" dentro da tag iframe
+
+quando utilizamos este comando a pagina principal que esta armazenando o iframe não permite a coleta ou envio de dados dentro daquele iframe
+
+
+referrerpolicy="no-referrer-when-downgrade" (valor padrão)
+
+ou no-referrer + limitado
+
+Este comando diz que nenhum mecanismo de busca vai coletar informações do usuário
+
+
+
+Porém se em algum caso especifico eu queria que aquela pagina capte o formulário de um iframe, usar:
+
+sandbox="allow-same-origin allow-forms allow-scripts" (Fazer está configuração se o site estiver no mesmo servidor)
+
+
+============
+
+Aula 8: Dicas para iframes melhores
+
+Possivel inserir:
+Videos
+Google Maps
+Waze
+Google Docs
+Etc
+
+============

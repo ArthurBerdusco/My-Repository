@@ -1,0 +1,78 @@
+Cap 019
+
+7 Aulas:
+
+
+Aula 1: Download das imagens do capitúlo
+
+
+=====================
+
+Aula 2: Colocando uma imagem de fundo no seu site
+
+3opções de backgroud em qualquer tag ou componente
+
+background-color: white
+background-image: linear gradient()
+background-image: url(interno ou externo)
+
+=====================
+
+Aula 3: Imagens que se repetem no fundo do site
+
+toda imagem inserida vem por padrão como repeat, porem da para configurar como nao repetir ou repetir no eixo x ou y
+
+
+
+=====================
+
+Aula 4: Configurando a posição da imagem no fundo do site
+
+Para configurar a posição da imagem de fundo é utilizado o elemento
+
+background-position: left top // left center // right bottom // center center etc
+
+
+
+=====================
+
+Aula 5: Mudando o tamanho da imagem de fundo do site
+
+background-size:
+auto
+%
+px
+contain
+cover
+
+
+
+para utilizar a imagem cobrindo toda a extensão sem ser picotada ou ter problemas com barras pretas fora da imagem utiliza-se o background-size: cover que irá adaptar a imagem de acordo com o tamanho da tela, ele faz isso sem distorcer porem as vezes pode cortar partes da imagem, já o contain ele utiliza 100% da imagem porém ele mostra barras pretas se a tela for pequena.
+
+
+
+=====================
+
+Aula 6: background-attachment e shorthand
+
+attachment "vinculo":
+scroll a imagem é rolada junto com o scroll
+fixed fundo é fixo
+
+
+shorthand: ordem:
+color > image > position > repeat > [size]
+
+background: black url(www.qweqwe.com/foto1) center center no-repeat cover fixed;
+
+=====================
+
+Aula 7: Centralização vertical de caixas
+
+geralmente caixas dentro de caixas
+
+a caixa exterior tem a tag position: relative;
+
+ja a caixa externa tem a position: absolute; e assim modificamos os parametros left e top para centralizar
+
+caso seja necessário também há a tag transform para efetuar um translate para centralizar melhor 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem em diferentes dispositivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Testando a flexibilidade das imagens</h1>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/imagem-p.jpg" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/imagem-m.jpg" type="image/png">
+        <img src="imagens/imagem-original.jpg" alt="A imagem flexível funciona">
+    </picture>
+
+    <audio preload="metadata" controls autoplay loop>
+        <source src="musica/guanacast-33.mp3" type="audio/mpeg">
+        <source src="musica/guanacast-33.mp3" type="audio/ogg">
+        <source src="musica/guanacast-33.mp3" type="imagem/wav">
+        <p>Seu navegador não suporta áudio <a href="musica/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"></a></p>
+    </audio>
+
+    
+    
+</body>
+</html>

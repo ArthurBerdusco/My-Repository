@@ -1,0 +1,55 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 10
+4 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1:Links e Âncoras em HTML5
+
+Fundamento basico da linguagem HTML são os links
+Os sites tem navegações 
+
+Hyperlink - Ancora
+é importante referenciar o site aos melhores buscadores de sites da internet sendo eles:
+Google
+Youtube
+Isso irá gerar acessos ao site
+
+Ver PDF sobre as referencias e configurações dos links:
+Imporntante colocar o link, tipo de abertura, e referencia de interno ou externo
+
+Para cada link interno ou externo os parametros são diferentes
+
+
+exercicio: C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap10\ex cap 10
+
+
+===============================================================================
+
+Aula 2: Links internos
+Pagina com link interno configurar o link com rel = "next" se for proxima pagina ou rel = "prev" se for pagina anterior 
+
+
+===============================================================================
+
+Aula 3: Links para downloads
+
+
+link > download > type (ver site iana para baixar diferentes tipos de arquivos)
+
+
+
+===============================================================================
+
+Aula 4:Desafios propostos
+
+Visualização do exercicio deste capítulo
+C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap10\ex cap 10
+
+
+
+
+
+
+

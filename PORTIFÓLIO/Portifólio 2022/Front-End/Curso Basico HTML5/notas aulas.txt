@@ -1,0 +1,496 @@
+web site = documento > informações
+usos = empresas, instituições, redes sociais, portifolio, governo, comparação de preções
+
+pode ser acessada remotamente > dominio: www.xyz.com < linguagem padronizada 
+
+HTML - Linguagem de marcação de hiper texto
+
+usar tags:
+
+<img> IMAGEM
+<p> Texto </p>
+<button>
+<input>
+
+divisão:
+conteudo HTML / estilo "Aparencia" CSS = site
+
+paginas estasticas:
+Repetição do código e mudança de pequenas partes "Repete muito"
+
+paginas dinâmicas: Front-end / Back-End
+Usuário clica na página que deseja
+Client: Laranja >>>>>> servidor web remoto "Requisita"
+Client: Laranja <<<<<< servidor web remoto "Entrega"
+
+Processo paginas dinâmicas:
+Servidor Remoto: PHP "Back-End 
+O servidor irá carregar a estrutura do site HTML e CSS fará consulta ao banco de dados conforme a informação requerida pelo usuario ou clint, então o Back End retorna as informações requeridas do banco para o Front End.
+
+JavaScript - Alterações no front-end
+
+==============================================================
+
+Como a internet funciona?
+Conexão por wifi ou rede cabeada
+|
+modem /roteador
+|
+provedor
+|
+backbone: "Espinha dorsal da internet. Sistema de cabeamentos que conecta computadores em uma grande rede mundial >> Data Centers
+
+Data Centers:
+Firewall: Sistema de segurança contra invasores
+Catastrofes, invasores, incendio
+Multiplas fontes de energia
+Acesso restrito
+Multiplas conexões com a internet "Backbone" para diminuir travamentos
+Temperatura controlada
+Supercomputadores > Servidores: Web
+
+Os datacenters são conectados a outros datacenters globalmente através do backbone
+
+
+servicos são controlados por software
+|
+Software: parte lógica de um computador( programas e aplicativos)
+hardware: parte física de um computador( placas, microchips, etc).
+|
+podemos configurar nossos computadores como se fossem servidores: APACHE
+|
+coloca-se um site em um servidor para facilitar o acesso de usuários em qualquer parte do mundo e a qualquer momento.
+
+
+
+Como colocar um site na internet
+1. Dominio x IP:
+Para que os roteadores possam encontrar um site nos data centers mundiais é necessário saber o endereço IP: "www.site.com.br -> 192.168.0.1 >>Servidor DNS<<
+|
+2.Comprar um domínio
+registro.br (para sites .com.br) / pagamento anual (~R$40)
+|
+3.Deve-se alugar um servidor web para manter o site no ar. Preço varia muito de 5 a 50 reais por mês
+|
+4.Puclicando o site
+   1.Vincule o dominio ao servidor de hospedagem(a empresa pode fazer isso para você)
+   2.Envie os arquivos do seu site para o servidor(FTP). Pronto!
+
+==============================================================
+
+HTML - Linguagem de marcação de hiper texto - criação de marcação de textos, formatação de paginas, vital para construir paginas
+
+=======================================================
+
+HTML5 - é a mais recente versão da linguagem HTML. Trouxe novas funcionalidades e perspectivas em relação ao papel exercido pelo HTML na Web. HTML traz novas tags, como <header> para cabeçalhos, <nav> para menus, <video> e <audio> para respectivos elementos, além de apresentar uma sintaxe mais simples como por exemplo para declaração do DOCTYPE. 
+|
+Uma página HTML é composta por alguns elementos básicos. São eles:
+ (i) a declaração do tipo do documento; 
+ (ii) a tag HTML, que armazenará todo conteúdo da página; 
+ (iii) o cabeçalho, que armazena informações estruturais da página; e 
+ (iv) o corpo, que armazenará os conteúdos e formatações da página.
+
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+ 
+        <title>Hello</title>
+ 
+    </head>
+    
+    <body>
+ 
+        <p>Olá, mundo!</p>
+    
+    </body>
+ 
+</html>
+
+=======================================================
+
+Primeira Pagina HTLM:
+
+Conseito:
+TAGS São códigos exibidos entre parenteses angulares <>, quando navegador ele lê uma tag ele irá interpretar e irá fazer a aplicação
+
+<!DOCTYPE html> : Acrononomo para doc type, declara para o navegador que este doc se trata de uma pagina HTML5
+<html lang="pt-br"> : inicio do site, geralmente declara-se o idioma
+|
+<head> : insireir algumas informações importantes como tipo de conjunto de caracteres
+    <meta charset="utf-8"> contem elementos necessários para o portugues, acentos cesidilha
+    <title> titulo da pagina do navagor    
+
+</head>
+|
+<body>conteudo que é exibido na pagina
+  |
+  <header> cabeçalho: O elemento <header> representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação . Um elemento <header> normalmente contém: um ou mais elementos de título (<h1> - <h6>)
+  |
+  <div> O elemento Divisão de Conteúdo. O elemento HTML <div> é o contêiner genérico para conteúdo de fluxo . Ele não tem efeito sobre o conteúdo ou layout até que seja estilizado de alguma forma usando CSS (por exemplo, o estilo é aplicado diretamente a ele, ou algum tipo de modelo de layout como Flexbox é aplicado ao seu elemento pai).
+  |
+  <footer> rodapé: geralmente contém informações sobre o autor da seção, dados de direitos autorais ou links para documentos relacionados
+</body>
+
+</html>
+
+=====================================================================
+
+<p> paragrafo "Espaçamento"
+<br> força a quebra de linha
+<hr> cria uma linha horizontal que traça uma linha horizontal de uma borda a outra na pagina
+
+
+Tags para título, aonde h1 é o maior tamanho e h6 o menor
+<h1> Cria Titulo</h1>
+<h2> Cria Titulo</h2>
+<h3> Cria Titulo</h3>
+<h4> Cria Titulo</h4>
+<h5> Cria Titulo</h5>
+<h6> Cria Titulo</h6>
+
+
+======================================================================
+
+Paragrafos:
+
+Como criar parágrafos?
+ Para se declarar parágrafos em páginas pode-se utilizar a tag <p>. Entretanto, é possível aplicar diversos tipos de formatações a parágrafos. Veja o exemplo a seguir:
+
+<p>
+    <b>Texto em negrito</b><br>
+    <i>Texto em itálico</i><br>
+    <u>Texto sublinhado</u><br>
+    <sub>Texto subscrito</sub><br>
+    <sup>Texto sobrescrito</sup><br>
+    <big>Texto com fonte maior do que o padrão</big><br>
+    <small>Texto com fonte menor do que o padrão</small><br>
+    <em>Texto em itálico</em><br>
+    <strong>Texto em negrito</strong>
+</p>
+
+Podemos ainda alterar a fonte usando o atributo style e a propriedade font-family:
+
+<! -- COMENTARIO --> 
+
+<!-- Declarando uma única fonte -->  
+<p style="font-family: 'Times New Roman'">Olá, mundo!</p>
+ 
+<!-- Declarando duas possíveis fontes -->
+<p style="font-family: 'Helvetica, Arial'">Olá, mundo novamente!</p>
+
+====================================================================
+
+Estilos:
+
+Estilos permitem que sua página tenha diversos tipos de formatações. Eles podem ser declarados com o atributo style (como mostrado anteriormente) ou com a tag <style>.
+
+No exemplo a seguir vamos demonstrar como alterar a cor de um texto:
+
+<style>
+p { color: red; }
+</style> (((Esse exemplo aplica a cor vermelha a todos os elementos do tipo parágrafo.)))
+
+
+Podemos ainda aplicar cores ao fundo. Observe o exemplo a seguir:
+
+<style>
+body { background-color: red; }
+</style>  (((Nesse exemplo, o plano de fundo da página foi alterado para a cor vermelha.)))
+
+
+Agora vamos construir uma página completa aplicando estilos:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meus estilos</title>
+    <style>
+        body { 
+            background-color: red; 
+            color:green; 
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <p>Olá mundo</p>
+ 
+</body>
+ 
+</html>
+
+Veja que a tag <style> deve ser declarada dentro da tag <head>. 
+
+
+===================================================================
+
+Imagens:
+
+Para inserir a imagem é recomendado que a imagem esteja no mesmo diretorio do arquivo HTML.
+
+Utiliza-se a tag dentro do body <img src="c:\imagem.png">
+
+se for necessario ajustar o tamanho da imagem utiliza-se width ajusta largura e automaticamente altura
+<img src="imagem.png" width="600px">
+
+se for necessario ajustar a altura utiliza-se height e a largura será ajustada automaticamente
+<img src="imagem.png" height="400"
+
+é possivel utilizar width e height na mesma imagem, porém não é recomendado por conta de distorção na imagem.
+
+Recomenda-se não utilizar o editor de imagem no html e sim tratar a imagem em algum editor como photoshop etc
+
+=================================================================
+
+Linhas horizontais e listas:
+Podemos adicionar linhas horizontais usando a tag <hr>.
+
+Listas podem ser criadas usando a tag <ul> (listas não ordenadas) ou <ol> (listas ordenadas) e cada elemento pode ser inserido com a tag <li>.
+
+
+<!-- Lista ordenada -->
+<ol>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ol>
+<!-- Lista não ordenada -->
+<ul>
+<li>Primeiro elemento</li>
+<li>Segundo elemento</li>
+<li>Terceiro elemento</li>
+</ul>
+
+=================================================================
+
+Criação de links:
+Criar ligação entre 2 paginas distintas ou externas:
+
+<a href="http://google.com.br">Google</a> ((pagina externa))
+
+<a href="pagina2.html">Link para página2</a> ((Pagina distinta porém interna))
+
+
+=================================================================
+
+Tabelas
+
+Podemos criar tabelas usando a tag <table>. 
+
+Cada linha deve ser declarada com a tag <tr> e cada célula com a tag <td>. 
+
+Opcionalmente podemos usar a tag <th> para declarar células que representem a linha de cabeçalho.
+
+================================================================
+
+Estruturas de um website
+
+Para que websites sejam bem desenvolvidos, existe um conjunto de tags que indicam onde cada conteúdo deve ser inserido. Em geral, essas tags são apenas estruturais, ou seja, ao serem inseridas, não trazem modificações a estrutura da página. 
+
+Observe a seguir algumas tags estruturais:
+
+
+________________________________________________________________
+<header>
+
+
+
+________________________________________________________________
+<nav>                                             <nav></header>
+________________________________________________________________
+<div>
+________________________________________________________________
+                                             | <aside>
+ <article>                                   |
+      <section></section>                    | 
+                                             |
+                                             | 
+                                             |
+                                             |
+                                             |
+                                             | </aside>
+________________________________________________________________  
+</div>
+________________________________________________________________
+<footer>                                              </footer>  
+
+
+
+
+Destaco a tag <div>. Essa tag permite a inserção de divisórias nas páginas, ou seja, são tags estruturais que permitirão que você organize seu código.
+
+<div>
+    <p>Conteúdo de uma div</p>
+</div>
+
+============================================================================    
+
+Formulários:
+Interagir com sistemas enviando informações para o sistema web para que possa ser processado armazenado em banco de dados
+
+<form action="processa.php" method="post">
+
+Metodo pode ser post = encripitada, ocultamente / get = enviada pela url   
+
+elementos que pertencem ao formulario:
+
+<body>
+
+<a href="pagina 2.html">Link para pagina 2</a>
+    <form action="prossa.php" method="post">
+        
+        <label>Text</label>
+        <input type="text" name="texto1" placeholder="Text">
+
+        <br>
+
+        <label>Password</label>
+        <input type="password" name="senha">
+
+        <br>
+        <label>Hidden</label>
+        <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+
+        <br>
+
+        <label>Select</label>
+        <select name="selecao">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+        </select>
+        
+        <br>
+
+        <label>Radio</label>
+        <input type="radio" name="radio1" value="1">Doce
+        <input type="radio" name="radio1" value="2">Salgado
+
+        <br>
+        <label>Checkbox</label>
+        <input type="checkbox" name="ck1" value="1" checked> Valor 1<br>
+        <input type="checkbox" name="ck1" value="2"> Valor 2<br>
+        <input type="checkbox" name="ck1" value="3"> Valor 3<br>
+
+        <br>
+
+        <input type="submit" name="submit" value="Enviar">
+
+
+</body>
+
+====================================================================
+
+Pagina completa:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página completa</title>
+</head>
+
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+
+        <nav></nav>
+
+    </header>
+
+    <!-- Conteúdo -->
+
+    <div>
+        <article>
+            <section></section>
+        </article>
+    </div>
+
+    <!-- Rodapé -->
+    <footer></footer>
+    
+
+</body>
+
+
+</html>
+
+=======================================================================================
+
+Alterando as cores      
+
+<style> cores </style>
+Você pode alterar as cores de seu texto e de sua página com a tag <style>.
+
+Para isso devemos aplicar as chamadas propriedades:
+
+color: altera a cor do texto
+
+background-color: altera a cor de fundo
+
+
+
+Para isso, você deve adicionar o nome da cor em inglês ou o código RGB. Por exemplo:
+
+<html>
+<head>
+<style>
+    body{
+        color: red;
+        background-color:#FFFFFF;
+    }
+</style>
+</head>
+<body>
+Olá mundo!
+</body>
+</html>
+
+Vamos tentar entender o código:
+
+A tag style aplica um determinado estilo à página. No caso, você aplicou um estilo a tudo que estiver no body. A cor aplicada ao texto é vermelha (red) e ao fundo é branco (#FFFFFF).
+
+Ainda acho complicado? Então vamos fazer uma aula prática ;)
+
+
+===========================================================================
+
+Cores:
+É possivel selecionar a cor de acordo com onome da cor, codigo hexadecimal ou código RGB. Na opção RGB é possivel configurar a transparencia no ultimo digito (0,0,0,x)
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cores</title>
+    <style>
+        body{
+            background-color: #590E40;
+            color: rgba(0,0,0,0.2);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <p>Olá Mundo</p>
+</body>
+
+</html>
+               
+
+
+
+
+
+
+
+
+
+
+

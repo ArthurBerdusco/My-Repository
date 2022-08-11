@@ -1,0 +1,95 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 3
+2 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1:
+
+A diferença entre HTML, CSS e JavaScript:
+
+HTML "Não é linguagem de programação" linguagem de desenvolvimento e criação:
+HYPERTEXT MARKUP LANGUAGE
+FOCADA EM CONTÉUDO:
+TEXTO, IMAGENS, VIDEOS, TABELAS
+|
+|
+|
+CSS "Não é linguagem de programação":
+CASCADING STYLE SHEETS
+FOCADA EM DESIGN:
+CORES, SOMBRAS, TAMANHOS, POSICIONAMENTO
+|
+|
+|
+JAVASCRIPT É uma linguagem de programação:
+FOCADA EM INTERAÇÕES:
+Menus interativos, animações, popups, validações
+
+
+Conteudo em HTML:
+<h1>Exemplo de título</h1>
+<p>Exemplo de paragrafo</p> 
+<img src="foto.png" alt="Exemplo de foto">
+
+
+Conteudo CSS:
+seletores
+
+h1{
+ font-family: Arial;
+ font-size: 20pt;
+ color: blue;
+}
+
+
+HTML tem estrutura básica de desenvolvimento do arquivo
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport"    (ocupa 100% da tela e abre com 100%)
+     content="width=device-width,
+     initial-scale=1.0">
+     <title>Document</title>
+  </head>
+  <body>
+     <h1>Olá Mundo!</h1>
+
+
+  </body>
+</html>
+
+Anotação:
+O cliente utilizando um navegador requisita de um servidor informações ao acessar o site.
+
+O site envia para o navegador dos clientes as requisições através dos arquivos HTML, CSS, JAVASCRIPT.
+
+O navegador recebe essas informações lê todos os arquivos e imprime a página na tela.
+
+
+==============================================================
+Aula 2:
+
+Front-end:
+Desenvolvimento voltado ao client-side - Usuario
+visual e interativa
+
+
+Back-end:
+Desenvolvimento voltado ao server-side
+Programação de sistemas integrados a bancos e serviços 
+
+
+
+Full stack:
+Desenvolvimento Client-Side e Server - Side
+
+
+
+
+
+
+

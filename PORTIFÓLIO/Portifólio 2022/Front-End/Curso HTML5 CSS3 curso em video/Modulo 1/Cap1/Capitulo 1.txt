@@ -1,0 +1,49 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 1
+4 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+Aula 1:
+Contrato
+==================================
+Aula 2:
+Curso é pra mim ou não
+==================================
+Aula 3:
+Livros para aprender HTML5 e CSS3:
+Referência MDN - Mozilla Developer Network
+W3C Standards - World Wide Web Consortium
+WHATWG Living Standard 
+W3Schools - Refsnes Data
+
+HTML5 -Mark Pilgrim
+CSS - Eric Meyer
+Flexbox in CSS - Estelle Weyl
+Grid Layout in CSS - Eric Meyer
+
+Livros para deleit visual:
+HTML5 e CSS3 - Elizabeth Castro
+HTML5 e CSS3 - Elisabeth Robson
+Crie Seu proprio site - Nate cooper
+
+Design
+
+LIVROS DE HTML5 E CSS3...
+
+==================================
+
+Aula 4:
+Como a internet chega na minha casa:
+https://www.youtube.com/watch?v=TNQsmPf24go&ab_channel=Vox
+
+
+
+
+
+
+
+
+
+
+

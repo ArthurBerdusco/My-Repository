@@ -1,0 +1,115 @@
+Cap 18 - Repositorio local Git e Repositório remoto GitHub
+
+Aula 1: Oque é Git e Github?
+
+Repositorio local / remoto:
+Lugar aonde é armazenado arquivos
+
+Git:
+Versionamento e repositório LOCAL automatico de arquivos, gerenciador de versões, se for necessario voltar alguma versão é possível.
+
+Não é possivel acessar esses arquivos de outro computador.
+
+Se o HD do computador apresentar problemas você perde tudo 
+
+
+GitHub:
+Repositório REMOTO, sendo possivel acessar os arquivos de outro computador
+
+
+É interessante utilizar as duas ferramentas em conjunto, ou seja, versionar todo o seu projeto e inserir esse repositório local Git no repositório remoto GitHub.
+
+
+====================================
+
+Aula 2: Instalando Git e GitHub no PC
+
+Git:
+Instalação padrão porém somente escolher o editor de códigos na data de hoje utilizo o VScode default
+
+
+GitHub: Instalação padrão basta ter uma conta válida no github
+
+
+====================================
+
+
+Aula 3: Criando conta no GitHub:
+
+
+====================================
+
+
+Aula 4: Primeiro repositório git e GitHub
+
+
+====================================
+
+
+Aula 5: Gerenciando Repositórios GitHub
+Para atualizar um arquivo:
+
+Atulizar o arquivo local, salvar, abrir o Desktop GitHub, commitar a atualização do arquivo e dar um Push Origin para que o desktop atualize o arquivo no github remoto
+
+Para deletar um repositorio primeiro apaga o local e depois tem que apagar o remoto
+
+Os commits é criar versões dos códigos
+
+
+====================================
+
+
+Aula 6: Hospedando site gratuitamente com GitHub Pages
+
+Abra o repositorio online e index do site setings githubpages choose a theme selecionar o tema  
+
+
+====================================
+
+
+Aula 7: Manutenção em sites hospedados no GitHub Pages
+
+Manutenção no código geralmente é dada no arquivo local, então é utilizado o commit no github e atualizar para que seja feito a atualização no repositorio remoto
+
+
+====================================
+
+
+Aula 8: Recursos Sociais do GitHub
+
+é possivel seguir programadores e repositorios
+
+
+====================================
+
+Aula 9: Clonando Repositórios GitHub
+
+É possivel fazer download "Clone" de qualquer repositório que seja publico no github.
+
+
+
+
+====================================
+
+Aula 10: GitHub em vários PCs
+
+Não estou em casa e quero usar o git github em outro computador
+
+Navegador / vscode / git / github desktop 
+
+procedimento
+
+1. abrir github desktop e logar
+
+2. file > options > git > save
+
+3. create a tutorial repository > selecionar o repositorio > clone > local para salvar o clone > open vscode > editar e realizar todas os trabalhos > commit > push origin
+
+4. Sair de tudo > deixar somente github desktop > repositorio > remove e selecionar o checkbox de enviar para lixeira > file > sign out > apagar os dados do git > esvaziar lixeira
+
+
+ir para outro computador, trabalhar, jogar as alterações na nuvem, e ir embora apagando todos os registros desse outro computador.
+
+
+Dica: youtube curso em video git github seguro / autenticador com celular para ninguem roubar sua conta
+

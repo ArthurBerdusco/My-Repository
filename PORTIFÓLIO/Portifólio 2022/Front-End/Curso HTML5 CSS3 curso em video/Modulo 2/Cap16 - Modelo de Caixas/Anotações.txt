@@ -1,0 +1,107 @@
+Módulo 2
+Capitulo 16 - 8 Aulas
+
+Aula 1: Modelo de Caixas: primeiros passos
+Tudo que é exibido no html é exibido em caixas
+
+tem como usar caixas dentro de caixas "aninhadas"
+
+Todo elemento visivel em um site é uma caixa
+
+Altura = height
+Largura = width
+borda = border
+padding = acolchoamento ou preenchimento
+margem = margin
+cortonor fora da borda = outline
+
+tipos de caixa:
+|
+|
+box level:
+começa na linha de baixo da caixa antessesora
+Ocupa 100% da tela, e pula para proxima linha apos o termino da caixa:  <div>
+
+inline level: está contido dentro da linha da caixa antecessora e continua na mesma linha apos o termino da caixa <span>
+
+
+==========================================
+
+Aula 2:  Modelos de caixa na prática: (parte 1)
+
+
+Box-level, caixas que geralmente contem outros conteudos outras caixas dentro, tem seu espaço definido dentro da página
+
+inline level, está contido dentro de uma linha. Ou dentro de um conteudo
+
+user agent - configuração padrão do navegador
+DevTools do navegador é essencial para fazer testes e verificar possibilidades nas configurações de tamanho das caixas, conseguimos testar para conseguir o melhor resultado se estivermos em dúvida.
+
+
+==========================================
+
+Aula 3: Modelos de caixa na prática: (parte 2)
+
+para alinhar uma caixa ao centro utiliza-se
+margin: auto;
+
+==========================================
+
+Aula 4: Grouping Tags em HTML5
+
+O html5 é voltado para a semântica, então quando for desenvolver os sites lembrar sempre de escrever as Tags pensando na formatação do site.
+
+Exemplo: Antigamente a estrutura dos sites era em DIV
+
+Hoje conseguimos criar
+
+Header
+  h1
+  nav
+
+main
+  section
+    article
+    article
+
+  article
+     section
+     section
+
+footer
+
+
+Isso facilita na hora de criar o design no css
+==========================================
+
+Aula 5: Sombra nas Caixas - @Curso em Vídeo de HTML5 e CSS3
+
+Cuidado com as sombras não precisa ter muitas.
+
+box-shadow
+
+tambem é interessante criar as sombras utilizando o DevTools que da para simular as diversas configurações de sombra
+
+==========================================
+
+Aula 6: Caixas com vértices arredondados
+
+border-radius
+
+
+
+==========================================
+
+Aula 7: Bordas decoradas
+
+Utiliza-se uma criação de borda personalizada em algum editor de imagem e insere ela utilizando o border-image-source: url()
+border-image-slice:
+border-image-repeat:
+
+==========================================
+
+Aula 8: DESAFIO do Módulo 2
+
+==========================================
+
+

@@ -1,0 +1,41 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 5
+2 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1:
+Parágrafos e Quebras:
+C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap5\index.html
+
+Se for preciso mostrar na pagina algum caracter especial utiliza-se:
+&lt; CARACTER OU TAG &gt
+
+===================================
+
+Aula 2:
+Símbolos e Emoji no seu site:
+
+OBS: Desing alinhamento, margem e espaçamento nunca utilize br ou quebra de linha. Este tipo de formatação de design deve ser feito no arquivo CSS
+
+<!-- COMENTÁRIO -->
+
+lt - less than
+gt - greater than
+
+&reg; marca registrada
+&copy; copyright
+&trade
+
+
+https://emojipedia.org/smiling-cat-with-heart-eyes/
+
+sempre que for adicionar um emoji a pagina utilizar a sintaxe: &#x + o código do emoji: U+1F63B sem o U+ ou seja:  &#x1F63B
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 7
+1 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1:Hierarquia de Títulos:
+
+Estrutura de títulos de uma revista
+Indice de livro também é hierarquico
+|
+Entendendo os niveis dos títulos
+Não pode pular os niveis hierarquicos, o principal titulo é o maior e os demais subtitulos são menores
+|
+Fazendo um exercício:
+C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap7\index.html
+
+
+Pode ter mas de um H1 em uma pagina?
+H1 é titulo principal da página ou títulos principais
+
+Mais um nível de títulos:
+Podem ser eles os subniveis de titulos
+
+
+Gerador de Lorem Ipsum:
+Lorem é um texto aleatório que o VSCODE cria
+Os títulos vão de H1 até H6
+
+
+H1 é letra grande e H6 é letra pequena?
+Não, H1 a H6 não representa tamanho e sim o nivel do titulo. Nesse sentido a formatação do tamanho da letra cabe ao CSS fazer;
+
+
+
+
+

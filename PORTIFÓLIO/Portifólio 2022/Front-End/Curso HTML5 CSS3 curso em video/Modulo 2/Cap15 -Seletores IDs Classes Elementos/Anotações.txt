@@ -1,0 +1,76 @@
+Módulo 2
+Capitulo 15 - 4 Aulas
+
+Anotações PDF: 
+
+Em um mesmo documento HTML, só podemos
+usar um id para um único elemento, o que significa que não podemos
+ter dois elementos com um mesmo id dentro de uma mesma página.
+Porém, podemos atribuir um mesmo class para vários elementos que
+possuam essa mesma característica.
+
+Todo id em HTML é identificado nas CSS por
+um símbolo #. Toda class em HTML é identificada nas CSS por um
+ponto.
+
+Sendo assim, caso haja duplicidade nas configurações, o que fica valendo no final é a
+propriedade especificada nas configurações inline. Cada camada de aplicação de
+estilos vai adicionando propriedades novas e sobrescrevendo as configurações do nível
+anterior
+
+Toda vez que usamos o símbolo > em um
+seletor, indicamos os filhos (children) imediatos de um elemento. No
+exemplo HTML que criamos, dizemos que o primeiro parágrafo é direct
+children da div.
+
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo element
+> = children
+
+===================================================
+
+Aula 1: Usando o id com CSS
+
+Quando temos dois elementos iguais da para configurar cada 1 com uma formatação diferente utilizando ID
+
+id é único para cada tag
+
+Em HTML = id (Só pode um elemento)
+Em CSS3 = #
+
+===================================================
+
+Aula 2: As diferenças entre id e class
+
+Quando temos varios elementos com a mesma formatação utilizamos uma classe
+
+Não classificar os nomes pelas formas e sim pela funcionalidade
+
+Em HTML = class (pode vários elementos)
+Em CSS3 = . 
+
+====================================================
+
+Aula 3: Pseudo-Classes em CSS
+
+Palavras que definem estado de elementos dentro da HTML
+
+dois pontos = : é igual as Pseudo-Classes
+Conceito de que existe tipos de atividades dentro da classe exemplo o hover que é "Quando eu passar o mouse em cima" aparece algo, elementos escondidos elementos exibidos por exemplo um menu etc.
+
+=====================================================
+
+Aula 4: Pseudo-Elementos em CSS
+
+2x dois pontos = :: é igual as Pseudo-elementos
+
+Mexe nas Classes, elementos, ID's 
+Mexe diretamento no conteudo periférico do elemento 
+
+
+
+
+

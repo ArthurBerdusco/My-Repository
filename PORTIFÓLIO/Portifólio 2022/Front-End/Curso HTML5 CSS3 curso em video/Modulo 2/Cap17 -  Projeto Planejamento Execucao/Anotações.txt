@@ -1,0 +1,87 @@
+Módulo 2
+Capitulo 17 - 12 Aulas
+
+Aula 1: Criando um projeto a partir do zero
+Desafio 10
+
+Inicio do projeto android
+
+
+
+======================================
+
+Aula 2: Navegando pelo projeto pronto
+
+Mostrando o projeto pronto com responsividade
+
+
+======================================
+
+
+Aula 3: Planejando a estrutura do site
+Planejar o site é importante
+
+Layout
+Cores
+Fontes
+
+planejar estrutura: mockflow.com   "Cria estrutura para sites" - Iframes
+
+planejar cores e escolher a paleta de cores: color.adobe.com
+
+planejar fontes: fonts.google.com / dafont.com
+
+
+
+======================================
+
+Aula 4: transformando o layout em código
+Criando o doc HTML e CSS inserindo o texto e as primeiras configurações
+
+
+======================================
+
+Aula 5: Organizando o conteúdo do site
+
+
+
+======================================
+
+
+Aula 6:
+
+
+======================================
+
+Aula 7:
+Responsividade é adaptar o seu site para diferentes tamanhos de telas
+
+======================================
+
+Aula 8:
+
+
+======================================
+
+Aula 9:
+
+
+======================================
+
+Aula 10:
+
+
+======================================
+
+
+Aula 11:
+
+
+======================================
+
+
+Aula 12:
+
+
+======================================
+

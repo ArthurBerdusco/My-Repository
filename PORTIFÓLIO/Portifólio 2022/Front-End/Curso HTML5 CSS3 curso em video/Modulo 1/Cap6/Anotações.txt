@@ -1,0 +1,97 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 6
+2 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 4: Você tem o direito de usar qualquer imagem no seu site?
+
+Direitos autorais: Pegar imagens não autorizadas não é correto
+https://youtu.be/Bkym20GqOoQ?t=171
+
+Para utilizar imagens sem direitos de uso utilize a configuração no google imagens em ferramentas Marcadas para reutilização com modificação / Marcadas para reutilização "Não pode modificar" / 
+
+Unsplash.com
+
+pexels.com
+
+
+
+Formatos:
+gimp gratuito para formatar imagens
+
+===========================================
+Aula 2: Quais são os formatos para imagens na Web? 
+
+As imagens não podem pesar no site se não o google restringe acessos ao site
+
+JPEG OU PNG:
+Os dois são os mais recomendados
+
+JPEG: Tem alta compactação
+PNG permite a transparencia não tem alta compactação
+
+==========================================
+
+Aula 3: O tamanho das imagens importa para um site?
+
+Importa muito, o tamanho das imagens ou tamanho de armazemanento irá influenciar nos acessos ao site, tendo em vista que sites pesados o google não recomenda. Tem razão pela quantidade de acessos.
+
+O GIMP é um software gratuito que tem uma função importante para redimencionamento de tamanho de imagens.
+
+=============================================
+
+Aula 4: A tag img em HTML5 
+
+Como escolher um bom formato, como redimencionar, como inserir imagem no site, CTRL+SPACE em imagem para procurar, colocar imagem por nome, caminho, ou através de link direto de um site.
+
+Exercicio: C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap6\index.html
+
+=============================================
+
+Aula 5: Como mudar o favicon de um site:
+
+O que é faicon:
+Faicon é o icone que aparece da aba do site geralmente é uma imagem que representa o logo do site ou empresa
+
+
+Criando seu proprio faicon:
+Geralmente icones são bem simples e não tem muitos detalhes
+|
+Site de icones gratis:
+IconArchive.com
+Baixar como ICO
+|
+Desenhando seu arquivo ICO:
+favicon.cc
+|
+Convertendo png em ICO:
+favicon.io
+|
+Como configurar o faicon no HTLM / Usando a tag link para favicon:
+para usar o favicon ele deve estar de preferencia como ICO
+no HTLM o favicon deve ser inserido na coluna <head>:
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+obs: favicon.ico é o nome do arquivo
+|
+Imagens são importantes:
+A imagem é importante e essencial para o site.
+
+
+
+Exercicio favicon:
+C:\Users\jsilva91\Documents\Aprender\Front-End\Curso HTML5 CSS3 curso em video\Modulo 1\Cap6\favicon.html
+
+
+
+
+
+
+
+
+
+
+

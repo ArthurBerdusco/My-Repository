@@ -1,0 +1,26 @@
+.quadrado{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#q1{
+    background-color: lightgoldenrodyellow;
+}
+
+#q2{
+    background-image: linear-gradient(to top, yellow, rgb(0, 247, 255));
+}
+
+#q3{
+    background-image: url(img/mercedes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+
+}

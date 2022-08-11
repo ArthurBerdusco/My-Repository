@@ -1,0 +1,100 @@
+Módulo 2
+Capitulo 13 - 07 Aulas
+
+Anotações PDF:
+
+As cores são essenciais para o sucesso de um site.
+Paletas de cores é fundamental para criar um site.
+Teoria das cores.
+
+
+
+______________________________
+
+Aula 1: Psicologia das cores
+Emocões das cores: 
+geralmente tudo que compramos está relacionado as cores e sua psicologia por traz.
+
+Cada cor tem seu significado bom e ruim para cada caso.
+
+As cores representam muitos conceitos dentro de design
+
+
+
+====================================================
+
+Aula 2: Representando Cores com CSS3
+nome em inglês - 1 2 3 4 5 6 7 8 9
+hexadecimal - 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+rgb - 255 255 255 red green blue
+hsl - Matriz, saturação e luminosidade
+
+É possivel configurar a transparência tambpem
+
+====================================================
+
+Aula 3: Harmonia de cores
+Circulo Cromático: circulo que representa todas as cores e teorias das cores
+
+Amarelo / Amarelo-alaranjado / Vermelho-alaranjado / Vermelho / Vermelho-Arroxeado /Roxo/Azul-Arroxeado / Azul / Azul-everdeado / Amarelo-esverdeado.
+
+Cores complementares - opostas
+cores analogas - vizinhas
+Analogas e complementar - junção das vizinhas com 1 oposta
+
+Analogas relacionadas - Pula uma vizinha
+
+Intercaladas - Pula sempre uma vizinha
+
+Cores Triádias - Pula 3 cores gerando um triangulo
+
+Cores em quadrado - Pula duas cores formando um quadrado
+
+Cores tetradicas - opostas com opostas pulando 1 cor entre as opostas
+
+Monocromia - 1 Cor modificando saturação e brilho (Luminosidade) - Degrade
+
+
+
+====================================================
+ 
+Aula 4: Paleta de núcleos
+Adobe color site para gerar paleta de cores
+Paletton simulador de paletas em sites e animações
+coolors divide a tela em 5 espaços e quando voce preciona espaço ele começa a combinar cores
+
+Paletas de cores geralmente são de 3 a 5 cores
+
+COLOCAR EM PRATICA TESTAR OS SITES
+
+====================================================
+ 
+Aula 5: Como capturar cores da tela?
+
+Extensão do google: colorzilla - Extensão que copia cores de sites e mostra o valor em hexadecimal
+
+
+Aula 6: Como criar degradê com CSS?
+
+Utilizar o seletor body {background-color: linear-gradient(to right, white, blue);} 
+Os comandos de linear pode ser top, bottom, right, left ou por graus
+
+radial gradient(circle)
+
+Cuidado com degrades com muitas cores e muito fortes, geralmente o degradê é sutil, moderação
+
+
+
+Aula 7: Criando um exemplo real
+
+Ver exercicio 16 cor03
+
+Configuração dos seletores body com degrade
+
+main tela principal com sombra (box-shadow) border-radius para arredondar a borda da folha, width largura, padding prenchimento, margin auto
+
+h1 titulo com sombra text-shadow
+
+Paleta de cores mais usadas adobe color
+
+ 

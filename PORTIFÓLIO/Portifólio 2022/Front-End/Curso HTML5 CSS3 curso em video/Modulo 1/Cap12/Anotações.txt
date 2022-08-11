@@ -1,0 +1,42 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 12
+3 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1: Estilos CSS inline
+
+Estilo inline:
+Inserindo formatação CSS no próprio arquivo html configurando os elementos dentro das tags
+
+
+===============================================================
+
+Aula 2: Estilos CSS internos
+
+Configuração CSS em:
+
+Locais:
+Configurado dento de <head> inserindo as configurações das tags exemplo: body, h1, h2, p etc.
+
+
+
+
+
+
+===============================================================
+
+Aula 3: Estilos CSS externos
+
+Uma das melhores maneiras de utilizar css com html é utilizar arquivo CSS externo
+
+Pode utilizar x arquivos no link html
+
+
+No mesmo arquivo é possivel utilizar as 3 configurações
+inline, interno, externo porém o privilegio maior é:
+
+1º inline
+2º intern
+3º extern

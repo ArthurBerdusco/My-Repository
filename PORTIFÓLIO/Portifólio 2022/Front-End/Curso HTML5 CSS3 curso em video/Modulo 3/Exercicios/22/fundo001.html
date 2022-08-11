@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papel de Parede</title>
+    <style>
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+            height: 96vh;
+            width: 700px;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            transform: translateX(-50%, -50%);
+        }
+        div.quadrado{
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid black;
+            background-color: lightgrey;
+            margin: 2px;
+            display: inline-block;
+        }
+
+        div#q1{
+            background-color: hotpink;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, rgb(195, 255, 17),rgb(0, 141, 177));
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern003.png);
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+    </section>
+</body>
+</html>

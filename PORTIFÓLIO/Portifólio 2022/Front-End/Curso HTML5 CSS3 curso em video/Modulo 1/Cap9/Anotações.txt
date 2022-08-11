@@ -1,0 +1,52 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 9
+2 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Aula 1: Listas OL, UL, Definição
+
+OL: Lista ordenada
+Lista ordenada por numero decimal, romano, alfabetica.
+O comando Type informa o tipo da lista ordenada
+O comando start é serve para iniciar a contagem por um numero especifico.
+TAGS:
+ol: Ordered lists
+li: list icon
+
+configuração type: 1 A a I i
+
+______________________________________________________________________________________________________________________________
+
+
+UL: Lista não ordenada
+Listas não ordenadas são aquelas que a ordem não tem diferença, pode ser organizada por simbolo de quadrado, circulo, disco.
+TAGS:
+ul: unordered list
+li: list icon 
+
+Configuração type: disc circle square
+
+______________________________________________________________________________________________________________________________
+
+
+
+Aula 2: Lista mistas e de definição
+
+Listas mistas são aquelas que misturam Listas ordenadas com não ordenadas e vice versa.
+
+
+DL: Lista de definição
+Define a ordem através de definições como chave, definição de termo para cada chave, e definição de termo para cada termo.
+TAGS:
+dl: Definition list
+  dt: Definition term
+  dd: Definition description
+
+
+
+
+
+
+

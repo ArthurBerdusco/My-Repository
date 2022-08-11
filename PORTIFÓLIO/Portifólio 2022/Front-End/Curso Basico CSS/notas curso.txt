@@ -1,0 +1,350 @@
+CSS:
+
+As folhas de estilos em cascata (CSS) são um conjunto de regras de formatação que controlam a APARÊNCIA de uma página na web
+|
+Porque estilo em cascata?
+1. Há várias formas de inserir modificações no estilo  com CSS
+2. Ordem de prioridade
+   - Efeito Cascata
+|
+Efeito cascata
+1. folha de estilo padrão do navegador
+2. folha de estilo do usuário (se existir);
+3. folha de estilo do desenvolvedor;
+	- estilo externo(importado)
+	- estilo incorporado(definido no head);
+	-estilo inline(dentro de um elemento);
+4.Marcação !important;
+
+OBS: O 1. efeito tem menor prioridade e o ultimo 4. tem maior prioridade.
+|
+Declarando códigos CSS:
+Há três formas:
+1. Inline (style="")
+2. Tag <style>
+3. Importação/link
+
+Inline:
+Feita diretamente na tag:
+<div style="height: 100px"></div>
+<p style="color:red">Meu Texto</p>
+
+
+Tag <style>:
+Códigos são declarados diretamente no código HTML através da tag<style.
+<head>
+     <style>
+         p{
+            color:red;
+         }
+</head>
+<body>
+    <p>Meu texto</p>
+</body>
+
+
+Importação/link:
+Estilo importado de um arquivo".css" separado
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+|
+|
+Sintaxe:
+
+seletor{
+   declarações: valor:
+}
+
+
+body{
+     font-family:Arial;
+     font-style:italic;
+}
+
+p{
+  font-family:Courier;
+  font-style:normal;
+}
+
+OBS: Tudo que estiver no body será fonte arial estilo italico, porém tudo que estiver nos paragrafos estará com a fonte Courier com estilo normal.
+
+|
+|
+
+Seletores:
+Classes
+IDs
+Tags
+
+|
+|
+
+Diferenças classes vs. IDs
+
+IDs:
+ - Identificadores ÚNICOS
+ - Declarados com #
+ - URLs
+    www.site.com/#id
+
+Classes:
+ - Apresenta um estilo a um grupo de elementos
+ - Declarado com.
+
+
+Exemplos:
+ Plano de fundo:
+
+ - Aplicados a body ou qualquer outra tag(div)
+ - inserindo uma cor
+    background-color:#F4F4F4 'DICA: nunca use cores muito escuras ou saturadas!'
+ - Inserindo uma imagem
+    background-image:url(app/img/bg.jpg)
+
+|
+|
+
+Posição (position):
+ - Define a posição de um elemento em uma pagina
+ - Essas coordenadas são definidas pelas propriedades:
+   top
+   left
+   right
+   bottom
+
+position:fixed
+  - elemento fica fixo em uma mesma posição
+  - Ex.: menus
+
+
+position:relative
+  - Posiciona o elemento com base no canto superior esquerdo
+  - Float: left ou right
+      'Uma div relative não sobrepõe outra'
+
+position:absolute
+ - Tuliza o canto superior esquerdo do elemento PAI para se posicionar
+ - Se não estiver dentro de outro elemento, tuiliza o bodu para se referenciar
+      Uma div pode sobrepor outra
+
+|
+|
+
+Texto:
+
+ *Fonte
+   - font-family:helvetica, arial;
+ *Cor
+   - color:#111;
+ *Tamanho
+   - font-size:12px;
+ *Negrito
+   - font-weight:bold;
+ *Espaçamento entre linhas
+   - line-height:1.5;
+
+|
+|
+
+Tamanho e espaçamento:
+
+ *Largura:
+  - width: 300px;
+ *Altura:
+  - height: 200px;
+
+|
+|
+
+
+Box Model:
+
+div{
+   margin: 10px;
+   padding: 10px;
+   border: 10px solid #000;
+}
+
+Modelo de bordas de uma div por exemplo:
+   
+organização dos box:
+        Margin
+        Border
+        Padding
+        Content
+
+|
+|
+
+Margin, padding e border:
+
+Margin é a parte externa
+Padding Margem interna
+Border é a borda
+
+|
+|
+
+Superior e inferior/direita e esquerda
+
+Margin:20px 10px;
+
+se eu declarar 2 elementos para margem:
+O primeiro indica topo e rodape, o 2º representa direita e esquerda
+
+Se eu declarar 4 elementos para margem:
+O primeiro indica topo, o segundo direita, o terceiro rodapé, o quarto esquerda.
+
+|
+|
+
+Eliminando configurações do browser:
+
+*{
+  margin:0;
+  padding:0;
+}
+
+============================================================
+
+Declarando um arquivo CSS:
+
+Para criar um arquivo CSS basta criar um arquivo com a extensão .css
+
+1º stile
+2º tag
+3º Importação * Melhor prática
+
+==============================================================
+
+Como programar um arquivo CSS:
+
+Comentar uma ou mais linhas:
+ /*COMENTARIO */
+
+Regra básica: dentro do seletor nos temos as propriedades e valores
+ seletor{
+	propriedade: valor;
+	propriedade2: valor2;
+}
+
+
+"Em html as tags são exemplos de seletores, elementos de marcação a qual a pagina aplica as formatações"
+
+Teste: É possivel criar uma tag com nome aleatório e chamala no arquivo css para manipular o elemento html. Nesse sentido as tags manuais podem ser comparadas como variaveis.
+
+|
+|
+
+Cores em CSS:
+ nome
+ rgb
+ hexadecimal
+
+Cor de fundo do texto:
+ deve usar a tag do texto e mudar o background-color
+
+Cor de fundo da página:
+ alterar o background-color na tag <body>
+
+Alterar o tamanho da fonte:
+ font-size: 90px; dentro da tag do texto
+
+alterar fonte:
+ font-family: Helvetica, Arial; dentro da tag do texto
+
+|
+|
+
+DIVS:
+
+
+quando se cria uma pagina html você formata
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+=============================================================
+@@ Utiliza-se este comando * para selecionar todos os elementos da pagina e alterar alguns parametros como remoção de "margin" margem automatica do navegador e preenchimento "padding"@@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+}
+
+#div_esquerda{
+    background-color: springgreen;
+    min-height: 200px; @@Utiliza-se "min" para que a medida que o conteudo cresça a div cresce também@@
+    width: 60%;
+    float: left;
+}
+
+#div_direita{
+    background-color: deeppink;
+    min-height: 200px;
+    width: 40%;
+    float: right;
+}
+
+footer{
+    clear: both; @@Quando o footer some devido as div e float tem que utilizar o clear, que irá limpar a propriedade float e realinha a pag@@
+    background-color: blueviolet;
+    height: 50px;
+}
+
+
+
+===============================================================================================
+
+Entendendo a diferença entre margin e padding
+Qual a diferença entre a propriedade margin e a propriedade padding?
+
+
+Dada uma div, margin é a "margem externa" e padding é a "margem interna". Veja a figura a seguir:
+
+Margin
+border
+padding
+texto
+width
+
+===================================================================================================
+
+Container:
+A medida que a pagina é exibida em computadores diferentes com tamanhos diferentes o conteudo fica prejudicado e banguçado
+
+Uma forma de definiar o tamanho da pagina é utilizar os containers que definem uma largura fixa
+
+Design responsivo: Se ajusta de acordo com a página, framework bootstrap
+
+==================================================================================================
+
+Seletores:
+ - O seletor representa uma estrutura
+ - Essa estrutura é usada como uma condição para determinar quais elementos do grupo de elementos serão afetados
+
+Sintaxe
+
+seletor{
+   propriedade:valor
+}
+
+
+
+
+
+
+
+

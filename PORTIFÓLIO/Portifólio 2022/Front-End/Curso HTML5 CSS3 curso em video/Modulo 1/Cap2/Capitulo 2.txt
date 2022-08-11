@@ -1,0 +1,71 @@
+1º Módulo Primeiros passos HTML+CSS:
+Capitulo 2
+2 aulas
+==================================
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+Aula 1:
+
+como a internet funciona:
+https: Protocolo
+
+Computador - Celular - Client
+|
+Modem
+|
+provedor
+|
+servidor
+|
+IP
+
+
+DNS - Sistema de nome de dominio:
+É responsavel por nomear um IP
+
+
+Como os dados funcionam:
+8 bits "1byte" é a porção minima para representar uma informação 
+
+1024 bytes ou 2^10 = 1KB
+1024 KB = 1MB
+1024 MB = 1GB
+1024 GB = 1TB
+1024 TB = 1PB
+1024 PB = 1EB
+1024 EB = 1ZB
+1024 ZB = 1YB
+
+=======================================================
+
+Aula 2:
+Oque é dominio e hospedagem:
+Dominio: Nome que identifica o site, nome único, pago anualmente, TLDs
+Hospedagem: Local aonde o site irá ficar armazenado, pago mensalmente, espaço, memoria e recursos.
+
+
+Como as pessoas vão ver meu site? :
+Através do domonio.
+
+Oque é um URL:
+www.github.com/gustavoguanabara 
+Uniform Resource locate
+Dentro de uma URL temos as partes:
+Nome
+www - subdominio
+gitgub.com - Dominio 
+.com - TLD
+gustavoguanabara - caminho
+
+
+gustavoguanabara.github.io
+gustavoguanabara - subdominio
+github.io - Dominio
+io -TLD
+
+
+
+
+
+
+

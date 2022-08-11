@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float:left;
+    padding: 5px 0px 0px 0px;
+    
+}
+
+#menu{
+    margin-top: 35px;
+    float: right;
+}
+
+#menu a{
+    padding: 48px 16px;
+    text-decoration: none;
+    color: #111;
+    text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color: #111;
+    color: #35b8b0;
+}
+
+
+
+header{
+    background-color: #35b8b0;
+    height: 101px;
+
+}
+
+#principal{
+    background-image: url('design.jpg');
+    background-size: 100%;
+    clear: both;
+    min-height: 700px;
+    padding: 100px 0px 0px 0px;
+}
+
+
+footer{
+    clear: both;
+    background-color: blueviolet;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Class */
+
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+
+h1{
+    color:darkorange;
+    font-family: Helvetica, arial;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+p{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: Helvetica, arial;
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0px 100px 0px;
+    
+}
+
+
+
