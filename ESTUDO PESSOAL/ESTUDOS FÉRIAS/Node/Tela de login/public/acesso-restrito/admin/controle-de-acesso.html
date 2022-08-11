@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acesso</title>
+    <link rel="stylesheet" href="fonts_webfonts_css/all.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            height: 100vh;
+            width: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            display: flex;
+            text-align: center;
+            height: 50px;
+            background-color: lightslategray;
+        }
+
+        header form{
+            margin-top: 8px;
+            margin-left:20%;
+        }
+
+        header form input{
+            height: 30px;
+            width: 500px;
+        }
+
+        header form button{
+            margin-left: -10px;
+            height: 34px;
+            width: 90px;
+        }
+
+
+
+        .container-nav{
+            background-color: rgba(255, 255, 250, 0.855);
+            margin-top: 5px;
+            height: 91%;
+            width: 20%;
+            box-shadow: 3px 3px 3px rgba(109, 109, 109, 0.386);
+        }
+
+        .painel-nav{
+            display: grid;
+            padding: 10px;
+        }
+
+
+
+        .container-nav .painel-nav a{
+            margin-top: 40px;
+            border:  2px solid rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            display: grid;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            box-shadow: 3px 3px 3px rgba(109, 109, 109, 0.386);
+            background-color: rgb(83, 83, 255);
+
+        }
+
+        .fa-solid{
+            font-size: 1em;
+        }
+
+        .conteudo-central{
+            display: flex;
+        }
+
+        #img-principal{
+           margin-left: 50px; 
+        }
+
+        
+
+
+    </style>
+    <script src="../../js/client_side.js"></script>
+
+</head>
+<body>
+
+<header>
+    <img src="../../logo/Arthur-logos_transparent.png" alt="Logo Arthur Sistemas de controle de acesso" id="logo">
+    <form action="">
+        <input type="text" placeholder="Procurar nome ou CPF">
+        <button>Pesquisar</button>
+    </form>
+</header>
+
+
+
+
+<section class="conteudo-central">
+
+    <div class="container-nav">
+        <nav class="painel-nav">
+            
+            <a href="#"><i class="fa-solid fa-address-card">Pessoas</i></a>
+            <a href="#"><i class="fa-solid fa-clipboard-question">Relatorio</i></a>
+            <a href="#" onclick="navegationClient()"><i class="fa-solid fa-user-shield">Operador</i></a>
+            <a href="#"><i class="fa-solid fa-building-lock">Controladores</i></a>
+            
+        </nav>
+    </div>
+
+    <div>
+        <img src="../img/img-building.jpeg" alt="" id="img-principal">
+    </div>
+
+
+</section>
+
+<footer></footer>
+    
+</body>
+
+
+</html>

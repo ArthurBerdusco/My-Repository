@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acesso</title>
+    <link rel="stylesheet" href="css-controle-acesso/configurar-operador/style.css">
+    <script src="../../js/client_side.js"></script>
+</head>
+<body>
+    
+<header>
+    <img src="../../../logo/Arthur-logos_transparent.png" alt="Logo Arthur Sistemas de controle de acesso" id="logo">
+    <form action="">
+        <input type="text" placeholder="Procurar nome ou CPF" id="search-input">
+        <button type="button" onclick="procurar_nome()" id="search-btn">Pesquisar</button>
+    </form>
+</header>
+
+<section class="conteudo-central">
+    
+    <div class="painel-controle">
+        <h2>Cadastrar operador</h2>
+        <form>
+            <div><label>Usuario: </label><input class="input-text" type="text" id="nomeOperador" placeholder="Nome do operador" required></div>
+            <div><label>Senha: </label><input class="input-text" type="password" id="senhaOperador" placeholder="Senha do operador" required></div>
+            <div><label>Empresa: </label><input class="input-text" type="text" id="empresa" placeholder="Empresa" required></div>
+            <div><label>Observação: </label><input class="input-text" type="text" id="observacao" placeholder="Observação"></div>
+            <div class="doidao">
+                <p>Privilégio de acesso: </p>
+                <div><input type="Radio" name="privilegio" Value="Portaria" checked><label>Portaria</label></div>
+                <div><input type="Radio" name="privilegio" Value="Sindico"><label>Sindico</label></div>
+            </div>
+            <button onclick="adicionar_operador()" type="submit" class="btn">Adicionar</button>
+        </form>
+    </div>
+
+    <div class="ver-operadores">
+        <table id="table">
+            <thead>
+                <th>ID.</th>
+                <th>Nome</th>
+                <th>Empresa</th>
+                <th>observacão</th>
+                <th>Privilégio</th>
+                <th>Data Criação</th>
+            </thead>
+
+            <tbody>
+                
+
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+
+        </table>
+
+
+    </div>
+
+</section>
+
+<footer></footer>
+
+<script>
+
+
+
+
+    
+
+</script>
+    
+</body>
+
+
+</html>

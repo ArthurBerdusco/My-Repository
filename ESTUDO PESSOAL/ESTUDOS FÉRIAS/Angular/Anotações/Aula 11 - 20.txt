@@ -1,0 +1,116 @@
+Aula 11 - Emitindo Eventos
+
+Podemos comunicar eventos de um componente filho para o pai
+Para isso vamos precisar usar o @Output, que vai fazer a saída do evento do componente filho
+Na tag de invocação do componente no template, escolhemos um método para executar quando o evento for emitido
+Exemplo(emit)="onEmit()"
+
+Podemos ter como exemplo um componente que tem um botão, que ao ser clicado emite uma saida output com um evento, outro componente recebe esse evento e executa uma função
+
+
+===========================
+
+
+Aula 12 - Renderização de lista
+
+Outro recuso importante é o loop em listas;
+Para isso vamos precisar de uma propriedade com os itens da lista;
+E no template do componente vamos utilizar o *ngFor;
+A sintaxe é: *ngFor="let item of items"
+Desta maneira podemos renderizar template baseado em dados
+
+Listas sao muito utilizadas nas aplicações web pois são elas que basicamente exibem grande parte dos dados organizados da base de dados do sistema, podemos pegar como exemplo um site de adoção de animais
+
+Teriamos uma lista com nome tipo foto no banco, e inputariamos esses dados na aplicação web de forma organizada
+
+
+===========================
+
+Aula 13 - A importância das interfaces no Angular
+
+Toda entidade que vamos trabalhar precisa de uma interface
+Isso vai tornar nosso código mais simples ao longo do programa
+Padronizando ele e facilitando a manutenção
+Vamos implementar uma interface a nossa lista de animais
+E fazer um evento que também utilizará este recurso
+
+Fundamental para padronização das classes ajuda muito para não ter erros futuros na aplicação
+
+
+
+===========================
+
+Aula 14 - Pipe Operators do Angular
+
+Os pipe operators são recursos para trabalhar com strings nos templates
+Podemos realizar diversas funções como deixar o texto em caixa alta
+A sintaxe é: {{dao | algumPipeOperator}}
+Desta maneira nos poupamos de regras de CSS ou manipulação de strings com JS
+
+Existem muitos pipesOperators que tratam tipos de dados diferentes por exemplo datas, textos etc
+
+===========================
+
+Aula 15 - Two Way data binding
+
+O two way data binding é um recurso muito interessante para trabalho com formulários
+Basicamente conseguimos alterar props e o template com o preenchimento de inputs
+É necessário importar o FormsModule no componente principal
+E também declarar o ngModel no input, além de preencher também o atributo name, todos como o mesmo valor.
+
+===========================
+
+Aula 16 - Services
+
+O service é outra parte fundamental da arquitetura do Angular
+Geralmente ficam as requisições para as APIs que utilizamos no projeto
+Precisamos criar o service co,: ng generate service <nome>
+Importar no componente e iniciar no construtor
+Depois é possível acessar os métodos dele
+
+
+Base para toda API REST
+ 
+Criar service
+  |
+Importar no constructor
+  |
+Ativar e contruir o metodo 
+  |
+Evento dispara um evento pro componente que acessa o service
+===========================
+
+**Aula 17 - Angular Router**
+Nós vamos criar um novo arquivo para declarar nossas rotas
+Nele vamos importar os módulos RouterModule e  Routes
+Após a definição estas rotas precisam ser importadas em app.module.ts
+E por fim template principal criamos as rotas
+E substituimos os componesntes por Router-outlet
+
+Essencial para criação de sistema SPA, basicamente os links dos componentes ficam em uma integração Routing Module, e essa aplicação é importada na pagina principal, assim temos acesso a todos os componentes atraves de um módulo. Os links ao serem clicados não temos um reload na pagina so teremos uma reenderização do app central, sistema SPA
+
+
+===========================
+
+Aula 18 - Requisições HTTP
+
+Vamos realizar requisições HTTP nos nossos services
+Precisamos importar dois pacotes: HttpClient e HttpHeadres
+Neste exemplo utilizaremos uma API local para simular as request com o sjon-server
+Por ultimo é necessario inicializar o módulo HttpClientModule em app.module.ts
+
+Utilizização de requisição GET da estrutura REST na aplicação do angular para pegar dados de uma lista JSON e inserir elas na aplicação Web.
+
+
+===========================
+
+Aula 19 - 
+
+
+===========================
+
+
+Aula 20 - 
+
+
+===========================

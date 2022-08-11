@@ -1,0 +1,35 @@
+POST http://localhost:4003/products
+content-type: application/json
+
+{
+    "name": "Lapis",
+    "price": 1.5
+}
+
+###
+
+GET http://localhost:4003/products
+
+
+###
+
+GET http://localhost:4003/products/4e9b4418-8d64-44be-9cd8-f91813b96f53
+
+
+
+
+###
+PUT http://localhost:4003/products/532d9408-ce34-4740-af2b-aa06bf4eb0e3
+content-type: application/json
+
+{
+    "name": "Lapis",
+    "price": 2
+}
+
+
+
+
+
+###
+DELETE http://localhost:4003/products/e0fcca19-d726-45e1-9185-de0e4fcd3a58

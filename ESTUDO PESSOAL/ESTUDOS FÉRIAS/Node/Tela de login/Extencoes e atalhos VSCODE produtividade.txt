@@ -1,0 +1,85 @@
+Extenções:
+
+vscode video filipe Desamps
+
+dracula extenção:
+deixa as cores mais vivas
+
+
+visual studio intellicode:
+Inteligencia artificial para completar codigos
+
+
+Auto Rename Tag:
+Se for mudado a tag inicial ou de fechamanto automaticamente a extenção altera a outra tag
+
+
+BookMarks:
+Marcador de linhas. Cria uma aba e permite marcar linhas, sendo possivel pular para estas partes do código de maneira rápida
+
+
+GitLens: 
+Gerenciamento de versões do código, alterações / commits através da IDE do vscode
+
+
+Rest Cliet:
+Extensão que cria uma api interna que é aonde é possivel digitar urls ou comandos de request para obter valores de urls ou arquivos
+
+
+Settings Sync:
+auto update de códigos no gitHub
+
+==================================================================================
+
+
+DEVMEDIA
+
+CONTROL + N = CRIA NOVO ARQUIVO
+CONTROL + O = ABRE O ARQUIVO
+CONTROL + K + CONTROL + O =  ABRE UM DIRETÓRIO DE ARQUIVOS
+CONTROLS + S = SALVAR
+
+CONTROL + B = ATIVA / DESATIVA BARRA LATERAL
+
+CONTROL + F = PROCURAR TAG OU PALAVRAS
+
+CONTROL + H = SUBSTITUIR
+
+CONTROL + ALT + ENTER = SUBSTITUIR TODAS PLAVRAS
+
+CONTROL + ; = COMENTARIO
+
+SHIFT + ALT + SETA BAIXO OU CIMA = DUPLICA LINHA
+
+ALT + SETA BAIXO OU CIMA = MANDA LINHA PRA BAIXOU OU PARA CIMA
+
+
+CONTROL + D = ADICIONAR SELEÇÃO A PROXIMA OCORRENCIA
+
+ALT + Z = VSCODE CONFIGURA QUEBRA DE LINHA AUTOMATICA 
+
+
+ALT + NUMERO = MUDA DE ABA DE ACORDO COM NUMERO
+
+CONTROL + TAB = NAVEGA ENTRE ABAS
+
+CONTROLS + PAGE UP / DOWN = TAMBEM NAVEGA ENTRE ABAS
+
+CONTROL + G = ACESSA LINHA ESPECIFICA
+
+
+==================================================================================
+CONTROL + SHIFT + P = NAVEGA ENTRE EXTENSOES
+
+
+CONTROL + P = PESQUISAR POR NOME DO ARQUIVO
+
+CONTROL + SHIFT + L = SELECIONA E PODE TROCAR TODAS AS PALAVRAS QUE VOCE CLICOU INICALMENTE
+
+CONTROL + ' = ABRE O TERMINAL DO VSCODE
+
+CONTROL + SHIFT + D = ABRE A TELA DE DEBUG
+
+
+
+

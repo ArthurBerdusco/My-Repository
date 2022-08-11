@@ -1,0 +1,79 @@
+Aula 1 - 
+
+===========================
+
+
+Aula 2 -  
+
+
+===========================
+
+Aula 3 - 
+
+
+===========================
+
+Aula 4 - 
+
+===========================
+
+Aula 5 - 
+
+
+===========================
+
+Aula 6 - 
+
+
+
+===========================
+
+Aula 7 - 
+
+===========================
+
+Aula 8 - 
+
+
+===========================
+
+Aula 9 - Renderização condicional
+
+É possivel exibir determinado conteúdo por meio de uma condicional 
+Utilizamos a diretiva ngif para isso
+Os valores podem ser dinâmicos(propriedades), mas podemos realizar outros tipos de comparação
+Ha a possibilidade também de imprimir um cenário para validação de falso, com o else
+
+Bem interessante para validações e apresentação de conteudos na tela de acordo com condições, criadas no Typescript em conjunto com HTML
+
+Por exemplo, mostrar uma div se o nome for === "Arthur" ; else chama outra div que mostra não encontrado
+
+
+
+===========================
+
+
+Aula 10 - Eventos
+
+Podemos ativar eventos nos componentes para disparar algum método
+Um evento clássico que utilizamos muito é o click
+A sitaxe é: (click)="algumaFuncao()"
+Os métodos ficam na classe
+Futuramente utilizaremos este recuso para acessar uma API
+
+Os eventos sao fundamentais para o desenvolvimento de uma pagina
+
+Esses eventos podem ser um click por exemplo, que ativa uma função de exibição de uma div ou mensagem ou conteudo na tela
+
+Eventos mais comuns:
+
+Usuario clicando ou passando o mouse sobre certo elemento
+O usuario pressionando uma tecla do teclado
+O usuario redimensionando ou fechando a janela do navegador
+Uma pagina da web terminando de carregar
+Um formulário sendo enviado
+Um video sendo reproduzido, interrompido, ou terminando sua reprodução
+Um erro ocorrendo.
+
+
+===========================

@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5D0E02",
+        "titleBar.activeBackground": "#821403",
+        "titleBar.activeForeground": "#FFFBFB"
+    },
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}

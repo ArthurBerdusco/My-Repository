@@ -1,0 +1,98 @@
+Aula 11 - Métodos por props
+
+Os métodos também podem ser passados por props
+Ou seja, um componente filho pode ativar o método do seu ancestral
+Vamos acessar o método por meio de um evento
+A sintaxe é a mesma de uma props de dados: props.meuEvento
+
+Teoricamente é possivel criar um componenente filho com uma função que retorne um botao HTML, essa função tem uma props quer ira acionar uma outra função do componente pai.
+
+Esses componente criado é possivel inserir o mesmo em outras partes do código. Chamando outras funções
+
+
+===========================
+
+
+Aula 12 - Renderização condicional(if)
+
+Podemos atrelar a exibição de algum elemento a um if
+Esta ação é chamada de renderização condicional
+Envolvemos as tagas em chaves {}
+Como as chaves executam JavaScript, criamos nossa condição
+É possível usar o state para criar as condições
+
+Basicamente a renderização de uma parte da pagina com alguma condição por exemplo
+
+Podemos pegar um botao que pega um valor de email e gera o email da pessoa em uma div em baixo e se o valor do email for vazio nao apresenta nada
+
+Entao quando gera o email tambem podemos gerar um botao de apagar email que ira limpar o campo e consequentemente retirar o email da pessoa pois a primeira condição nao atende mais
+
+
+===========================
+
+Aula 13 - Renderização de listas
+
+Para renderizar uma lista vamos primeiramente precisar de um array
+Depois utilizamos a função map, para percorrer cada um dos itens
+Podemos assim renderizar algo na tela
+É possível unir operadores condicionais com a renderização de listas
+Exemplo se não ouver itens exibir uma div com uma mensagem: Não há itens
+
+Para percorrer cada um dos itens e exibir os valores da lista no site utilizamos algumas funções nativas do javascript. Saber oque cada uma dessas funções faz e como elas funciona pode facilitar e poupar tempo para exibir os itens
+
+Funções nativas para percorrer listas:
+map()
+filter()
+forEach()
+find()
+
+
+===========================
+
+Aula 14 - State Lift
+
+State Lift é uma técnica utilizada para compartilhar o state
+É normal vários componentes dependerem do mesmo estado
+Então precisamos elevar o nível do mesmo a um componente pai
+Então centralizamos o state no pai, e definimos quem usa e quem define (setState)
+
+
+
+===========================
+
+Aula 15 - React Router
+
+O React Router é um pacote para mudança de URLs da aplicação
+Podemos assim acessar outras views, sem o page reload
+Trocando apenas uma parte do layout da aplicação, ou seja, o que muda de view para view
+Precisamos instalar este pacote no projeto
+E também realizar alguams mudanças em como o APP é estruturado
+
+
+===========================
+
+Aula 16 - 
+
+
+===========================
+
+Aula 17 - 
+
+
+===========================
+
+Aula 18 - 
+
+
+===========================
+
+Aula 19 - 
+
+
+===========================
+
+
+Aula 20 - 
+
+
+===========================

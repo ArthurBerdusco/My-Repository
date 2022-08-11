@@ -1,0 +1,138 @@
+Aula 1 - Introdução
+
+React é um framework Javascript
+Utilizado para contruir SPA
+Baseado em componentes
+Utiliza JSX para renderizar HTML
+Aplica o Virtual Dom para realizar as alterações do DOM
+Podemos adicionar a um projeto ou criar um projeto com ele
+
+===========================
+
+
+Aula 2 -  Instalando o React
+
+Para instalar o react vamos utilizar uma ferramenta chamada Create React APP
+Recebemos todos os arquivos da biblioteca e temos como executá-la
+Para utilizar precisamos do Node e também NPM
+Esta ferramenta também otimiza o app gerado para produção
+É possivel inicar a aplicação com npm start
+
+
+===========================
+
+Aula 3 - Entendendo o JSX
+
+O JSX é como um HTML, porém dentro do código JavaScript
+É a principal maneira de escrever HTML com React
+Podemos interpolar variáveis, inserindo ela entre {}
+É possível também executar funções em JSX
+Inserir valores em atributos de tagas também é válido em JSX
+
+na estrutura do app.js (JSX):
+  Parte superior importação de arquivos e integrações
+  Parte das funções é aondo o código é exibido interpolado e compilado para o site
+  Parte inferior aonde tem os exports para enviar alguns dados para outros locais ou mandando ele pra frente
+
+
+A parte das funções é fundamental para criação do site com react, nela é possivel integrar todo o corpo do site e cololocar códigos JS nesta area.
+
+Na formatação HTML do react sempre teremos que ter um elemento Pai exemplo uma div que engloba todos os outros elementos
+
+A maneira correta de declarar classe no react é className
+
+
+===========================
+
+Aula 4 - Criando componestes no React
+
+Permite dividir a aplicação em partes
+Os componentes renderizam JSX, assim como App.js(que é um componente)
+Precisamos criar um arquivo de componente
+E importá-lo onde precisamos utilizar
+Normalmente ficam em uma pasta chamada components
+
+Criar uma pasta dentro de src com nome:
+  components
+	criar um ComponenteUm.js
+            Inserir esse componente na pagina principal
+
+Padronização do nome dos components Palavras juntas e cada inicio da palavra tem que ser maiuscula ex: HelloWorld.js
+
+Um fator chave dos componentes é a reutilização ou seja eu conseguir importar um componente dentro de outro componente e utilizar esse componente varias veses
+
+===========================
+
+Aula 5 - Trabalhando com props
+
+As props são valores passados para componentes
+Podemos deixálos dinâmicos
+Ou seja mudando a execução por causa do valor da prop
+O valor é passado como um atributo na chamada do componente
+E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente
+As props são somente de leitura
+
+
+===========================
+
+Aula 6 - Inserindo CSS no React
+
+O CSS pode ser adicionado de forma global na aplicação, por meio do arquivo index.css por exemplo
+Porém é possível estilizar a nível de componentes
+Utilizamos o CSS modules para isso
+Basta criar um arquivo como: Componete.module.css
+E chamar este css no componente
+
+É Interessante estilizar a nivel dos componentes para que não aja somente 1 arquivo CSS que englobe tudo e fique com 10mil linhas..
+
+
+
+===========================
+
+Aula 7 - Utilizando React fragments
+
+Os React Fragments permite a criação de um componente sem elemento pai
+O propósito é descomplicar os nós do DOM
+A sintaxe é <> e </>, não há um nome para a tag
+Criamos no próprio JSX
+
+
+===========================
+
+Aula 8 - Avançando em props
+
+Podemos definir tipos para as props, realizando uma espécie de validação;
+Definimos em um objeto chamado propTypes no próprio componente;
+E ainda há a possiblidade de definir um valor padrão;
+Neste caso utilizamos o objeto DefaultProps
+
+Nesta importação e recursos é possivel definir tipos das variaveis dos objetos dos componentes e definir alguns parametros como isRequired ou seja dado obrigatório
+
+Também é possivel definir um valor default
+
+Ou seja Validação e valor Default
+
+
+===========================
+
+Aula 9 - Eventos
+
+Os eventos de React são os mesmos eventos do DOM
+Ou seja temos eventos para responder a um click
+O evento é atrelado a uma tag que irá executá-lo
+Geralmente um método é atribuído ao evento
+Este método deve ser criado no componente
+
+
+===========================
+
+
+Aula 10 - useState
+
+O useState é um hook do React;
+Com ele conseguimos manusear o estado de um componente de forma simples
+Este hook funciona muito bem com eventos
+Podemos atrelar um evento a mudança de state
+
+
+===========================

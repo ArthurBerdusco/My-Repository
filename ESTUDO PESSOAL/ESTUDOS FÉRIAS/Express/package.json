@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "name": "cursonode",
+  "version": "1.0.0",
+  "main": ".mongorc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mon": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}

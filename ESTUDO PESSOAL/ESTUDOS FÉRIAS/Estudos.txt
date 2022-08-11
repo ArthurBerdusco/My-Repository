@@ -1,0 +1,64 @@
+Banco de dados SQL:
+Artigos
+Documentação
+Estruturas de bancos
+Curso em video MySql
+
+Inglês:
+MemRise 20min
+Anki - Musica por dia
+British Council - PodCast + Exercicios
+Videos Youtube
+
+Lógica de programação:
+Artigos
+Textos
+Videos
+Portugol
+Exercicios
+Aplicativos tipo aquele de portas logicas do android
+https://www.udemy.com/course/logica-de-programacao-com-javascript-g/learn/lecture/29491648#overview
+Programação orientada a objetos
+
+Javacript:
+Artigos
+Documentação
+Programação orientada a objetos
+Curso https://www.udemy.com/course/introducao-ao-javascript/
+Exercicios
+
+
+Banco de dados MongoDB:
+Artigos
+Documentação
+Estruturas de bancos
+https://www.udemy.com/course/mongodb-fundamental-aprenda-o-basico-de-nosql/
+
+React:
+Artigos
+Documentação
+Exercicios
+https://www.udemy.com/course/react-para-iniciantes-free/
+
+
+React Native:
+Artigos
+Documentação
+Exercicios
+https://www.udemy.com/course/react-native-com-hooks-e-context-api-cadastro-completo/
+
+
+Angular
+Artigos
+Documentação
+Exercicios
+https://www.udemy.com/course/angular-9-essencial/
+https://www.youtube.com/watch?v=NCrWXZtlc7Q&list=PLdPPE0hUkt0rPyAkdhHIIquKbwrGUkvw3&ab_channel=Cod3rCursos
+
+
+Jquery:
+Artigos
+Documentação
+Exercicios
+https://www.udemy.com/course/introducao-ao-jquery/
+https://www.udemy.com/course/introducao-jquery/

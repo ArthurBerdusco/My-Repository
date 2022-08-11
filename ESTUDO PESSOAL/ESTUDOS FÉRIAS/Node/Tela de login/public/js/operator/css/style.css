@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    height: 50px;
+    background-color: lightslategray;
+}
+
+header form{
+    margin-top: 8px;
+    margin-left:20%;
+}
+
+header form input{
+    height: 30px;
+    width: 500px;
+}
+
+header form button{
+    margin-left: -10px;
+    height: 34px;
+    width: 90px;
+}
+
+
+
+.painel-controle{
+    background-color: rgba(222, 180, 155, 0.855);
+    margin-top: 8px;
+    height: 680px;
+    width: 25%;
+    box-shadow: 3px 3px 3px rgba(109, 109, 109, 0.386);
+    
+}
+
+.painel-controle h2{
+    text-align: center;
+    padding:30px 0px 50px 0px;
+    
+
+}
+
+.painel-controle form div{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.painel-controle form label{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-top: 4px;
+    margin-left: 15px;
+    color: black;
+    text-align: right;
+    text-shadow: 2px 2px 3px rgba(99, 99, 99, 0.547);
+}
+
+.painel-controle form .input-text{
+
+    margin-right: 20px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    width: 225px;
+    height: 25px;
+    box-shadow: 4px 3px 2px rgba(99, 99, 99, 0.547);
+    border: none;
+}
+
+.painel-controle form p{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.painel-controle form .doidao{
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.painel-controle form .doidao div label{
+    margin-right: 40px;
+}
+
+.painel-controle form .doidao div input{
+    height: 100%;
+    width: 16px;
+    margin-left: 45px;
+}
+
+
+.btn{
+    margin: 30px 0px -15px 55px;
+    height: 40px;
+    width: 280px;
+    background-color: rgb(83, 83, 255);
+    border-radius: 0px 0px 5px 0px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1em;
+
+}
+
+.btn:hover{
+    background-color: rgb(193, 2, 117);
+    font-size: 1.2em;
+}

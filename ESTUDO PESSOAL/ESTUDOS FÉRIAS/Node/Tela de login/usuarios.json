@@ -1,0 +1,9 @@
+[
+    {"produto": "Escova de dente", "total": 4.75, "cliente": "Mike"},
+    {"produto": "Guitarra", "total": 199.99, "cliente": "Tom"},
+    {"produto": "Leite", "total": 11.33 , "cliente": "Mike"},
+    {"produto": "Pizza", "total": 8.50, "cliente": "Karen"},
+    {"produto": "Escova de dente", "total": 4.75, "cliente": "Karen"},
+    {"produto": "Pizza", "total": 8.50, "cliente": "Dave"},
+    {"produto": "Escova de dente", "total": 4.75, "cliente": "Mike"}
+  ]
