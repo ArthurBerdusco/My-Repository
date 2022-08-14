@@ -1,0 +1,8 @@
+1. Entender o Java, conceitos e suas ferramentas
+2. POO
+3. Ferramenta IDE para desenvolver JAVA para ajudar.
+4. Compilação
+5.Lógica Programação
+6. Entender como as dependencias funcionam
+7. Full Stack em java é muito amplo, nesse sentido é interessante reduzir o escopo para entender melhor os ambientes que você vai trabalhar, exemplo focar em web e mobile ou outras areas.
+8. Frameworks Java
