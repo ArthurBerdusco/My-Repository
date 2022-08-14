@@ -1,0 +1,18 @@
+//Faça um programa para ler as idades de 6 jogadores de um time de futsal. Apresente no final o jogador mais velho e o mais novo do time.
+
+import java.util.Scanner;
+
+public class JogadoresFutebol {
+
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in);
+		
+		int idade, menorIdade, maiorIdade;
+		
+		for(int jogador = 0; jogador <= 6; jogador++) {
+			System.out.println("Jogador " + jogador);
+		}
+		
+	}
+
+}

@@ -31,19 +31,7 @@ public class TrocoCliente {
 			System.out.println("Atender proximo cliente: 1 = Sim || 2 = Não");
 			atender = myObj.nextInt();
 			
-			
-			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 

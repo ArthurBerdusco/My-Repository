@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class TesteWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner myObj = new Scanner(System.in);
+		
+		
+		
+		while(true) {
+			
+			int caracter = myObj.nextInt();
+			
+			while(caracter == 1) {
+				System.out.println("Olá mundo!");
+			}
+			
+			
+		}
+		
+
+
+	}
+
+}
