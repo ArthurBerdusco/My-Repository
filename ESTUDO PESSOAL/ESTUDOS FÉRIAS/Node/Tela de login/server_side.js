@@ -57,8 +57,7 @@ app.post('/login',(request, response) => {
 	const db = dbService.getDbServiceInstance();
 
 	const user = db.autenticationLogin(nome,senha);
-
-
+	
 	user
 	.then(result => response.send(result))
 
